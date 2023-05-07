@@ -8,7 +8,7 @@ const StartMenu = () => {
     <div className="bg-pixelFishes flex flex-col justify-evenly items-center bg-cover bg-center h-screen w-screen ">
       <div>
         <h1 className="headline-animation text-white text-6xl font-extrabold tracking-widest ">
-          ~ 良いね iine ~
+          ~ 日本語遊び ~
         </h1>
       </div>
       <div className="flex flex-col">

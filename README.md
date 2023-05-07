@@ -5,7 +5,7 @@
 <div align="center">
   <img width="861" alt="image" src="https://user-images.githubusercontent.com/89473016/230063984-a009feda-367e-413a-b91f-9b39d9175a71.png">
 
-  <h3 align="center">もしも日本人になったら A Japanese Learning Game</h3>
+  <h3 align="center">日本語遊び A Japanese Learning Game</h3>
 
   <p align="center">
     A Japanese RPG game where the player goes to sleep one day and magically gets transported to Japan, forcing them to learn Japanese to survive in their new environment.
@@ -43,7 +43,7 @@
 
 ## About The Project
 
-Introducing もしも日本人になったら, where players can learn Japanese through story-driven gameplay and a coin system. 
+Introducing 日本語遊び, where players can learn Japanese through story-driven gameplay and a coin system. 
 
 Players can sign up and create a character for the game, which they can customize with new outfits from the shop using the coins earned from playing quizzes through their study desk in their bedroom.
 

@@ -36,7 +36,7 @@ const BurgerMenu = () => {
       <div>
         <Menu.Button
           data-test="options"
-          className="inline-flex bg-menuBtn w-[50px] h-[50px] justify-center gap-x-1.5   text-sm font-semibold text-gray-900 shadow-sm "
+          className="bg-menuBtn w-[100px] h-[100px] justify-center gap-x-1.5 text-sm font-semibold text-gray-900 shadow-sm transform"
         ></Menu.Button>
       </div>
 

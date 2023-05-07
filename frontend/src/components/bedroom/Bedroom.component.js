@@ -30,7 +30,7 @@ const Bedroom = () => {
         <div
           onClick={() => dispatch(openStatModal())}
           data-test="statModal"
-          className="w-[397px] h-[211px] flex flex-wrap relative  cursor-pointer overflow-hidden scale-75 top-[-1.75rem] right-[3.25rem]  bg-statsBarBg bg-cover px-4 py-2 shadow sm:p-2"
+          className="w-[517px] h-[274px] flex flex-wrap relative  cursor-pointer overflow-hidden scale-75 top-[-1.75rem] right-[3.25rem]  bg-statsBarBg bg-cover px-4 py-2 shadow sm:p-2"
         >
           <div>
             <StatModal />
@@ -38,37 +38,37 @@ const Bedroom = () => {
           <div className="mt-2 pixel-font relative top-[2.75rem] right-[-2.25rem] ">
             <dd
               data-test="email"
-              className="text-xs relative left-3 font-medium text-gray-900"
+              className="text-lg relative left-3 font-medium text-gray-900"
             >
               {email}
             </dd>
             <dt
               data-test="level"
-              className="truncate text-xs relative left-3 font-medium text-gray-900"
+              className="truncate text-lg relative left-3 font-medium text-gray-900"
             >
               Level: {level}
             </dt>
             <dt
               data-test="exp"
-              className="truncate text-xs relative left-3 font-medium text-gray-900"
+              className="truncate text-lg relative left-3 font-medium text-gray-900"
             >
               Exp: {xp}
             </dt>
             <dt
               data-test="words"
-              className="truncate text-xs relative left-3 font-medium text-gray-900"
+              className="truncate text-lg relative left-3 font-medium text-gray-900"
             >
               Words: {wordsKnown}
             </dt>
             <dt
               data-test="coin"
-              className="truncate text-xs relative left-3 font-medium text-gray-900"
+              className="truncate text-lg relative left-3 font-medium text-gray-900"
             >
               Coins: {coins}
             </dt>
           </div>
         </div>
-        <div className="relative left-[1348px] top-[-215px]">
+        <div className="relative left-[2100px] top-[-270px]">
           <BurgerMenu />
         </div>
         <div className="ml-50 mt-100 absolute left-[695px] top-[450px]">
@@ -101,7 +101,7 @@ const Bedroom = () => {
           data-test="shop"
           onClick={() => dispatch(setCurrentScene("SHOP"))}
           className="shop cursor-pointer absolute pixelated top-[420px] left-[1048px]"
-          data-test="shop"
+
         >
           <p className="text-tag absolute left-[7px] top-[1px]">Shop</p>
         </div>

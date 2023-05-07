@@ -5,10 +5,10 @@
 <div align="center">
   <img width="861" alt="image" src="https://user-images.githubusercontent.com/89473016/230063984-a009feda-367e-413a-b91f-9b39d9175a71.png">
 
-  <h3 align="center">良いね iine</h3>
+  <h3 align="center">もしも日本人になったら A Japanese Learning Game</h3>
 
   <p align="center">
-    A Japanese learning site with an RPG twist
+    A Japanese RPG game where the player goes to sleep one day and magically gets transported to Japan, forcing them to learn Japanese to survive in their new environment.
    
 </div>
 
@@ -43,11 +43,11 @@
 
 ## About The Project
 
-良いね iine is a Japanese learning website mixed with RPG game elements.
+Introducing もしも日本人になったら, where players can learn Japanese through story-driven gameplay and a coin system. 
 
-Users can sign up, create a character for the game, and gain coins and experience by playing Japanese quizzes. Users can also buy new outfits with coins and change them in their wardrobes.
+Players can sign up and create a character for the game, which they can customize with new outfits from the shop using the coins earned from playing quizzes through their study desk in their bedroom.
 
-They can always check their achievments and learning progress by reviewing the records of the words they've learned.
+With an engaging storyline and interactive gameplay mechanics, the game offers a fun and unorthodox way to learn the Japanese language while tracking progress and earning rewards.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,13 +210,13 @@ Remember to give the project a star! Thanks again!
 
 ## Contact
 
+- Ryan Lai - [LinkedIn](https://www.linkedin.com/in/ryan-lai-a52211214/) - ryanlai12@gmail.com
 - Anna Magnusson - [LinkedIn](https://www.linkedin.com/in/anna-magnusson-519658199/) - annamagnusson99@gmail.com
 - Edward Thomas - [LinkedIn](https://www.linkedin.com/in/edwardthomas99/) - edwardfgtdev@gmail.com
 - James Mcleish - [LinkedIn](https://www.linkedin.com/in/james-mcleish-049446217/) - james.mcleish@icloud.com
 - Luke Lai - [LinkedIn](https://www.linkedin.com/in/luke-lai-309a3522b/) - lukelai.dev@gmail.com
-- Ryan Lai - [LinkedIn](https://www.linkedin.com/in/ryan-lai-a52211214/) - ryanlai12@gmail.com
 
-Project Link: [**[japanese-learning-RPG](https://github.com/SimpleLuke/japanese-learning-RPG)**]
+Project Link: [**[japanese-learning-RPG](https://github.com/forreya/japanese-learning-RPG)**]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -224,7 +224,6 @@ Project Link: [**[japanese-learning-RPG](https://github.com/SimpleLuke/japanese-
 
 ## Acknowledgments
 
-- [Makers](https://makers.tech/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [TailwindUI](https://tailwindui.com/)
 - [Headless UI](https://headlessui.com/)

@@ -263,6 +263,7 @@ code {
   background-image: url("../public/img/wardrobepng.png");
   width: 63px;
   height: 46px;
+  scale: 1.75;
   overflow: hidden;
   transform: scale(3);
 }
@@ -280,6 +281,7 @@ code {
   background-image: url("../public/img/deskpng.png");
   width: 30px;
   height: 40px;
+  scale: 1.75;
   transform: scale(3);
 }
 
@@ -295,6 +297,7 @@ code {
   background-image: url("../public/img/bookshelfpng.png");
   width: 39px;
   height: 44px;
+  scale: 1.75;
   transform: scale(3);
 }
 
@@ -310,6 +313,7 @@ code {
   background-image: url("../public/img/shop.png");
   width: 29px;
   height: 49px;
+  scale: 1.75;
   transform: scale(3);
 }
 
@@ -319,6 +323,14 @@ code {
   height: 49px;
   transform: scale(3.2);
   cursor: pointer;
+}
+
+.character {
+  scale: 1.5;
+}
+
+.character:hover {
+  transform: scale(1.1);
 }
 
 .text-tag {

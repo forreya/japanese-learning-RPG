@@ -68,23 +68,23 @@ const Bedroom = () => {
             </dt>
           </div>
         </div>
-        <div className="relative left-[2100px] top-[-270px]">
+        <div className="relative left-[2110px] top-[-270px]">
           <BurgerMenu />
         </div>
-        <div className="ml-50 mt-100 absolute left-[695px] top-[450px]">
+        <div className="character absolute left-[1200px] top-[580px]">
           {character.currentOutfit && (
             <CharacterComponent data={character.currentOutfit} />
           )}
         </div>
         <div
-          className="bookshelf cursor-pointer absolute left-[377px] top-[252px]"
+          className="bookshelf cursor-pointer absolute left-[600px] top-[280px]"
           data-test="bookshelf"
           onClick={() => dispatch(setCurrentScene("BOOKSHELF"))}
         >
           <p className="text-tag relative left-[4px] top-[1px]">Bookshelf</p>
         </div>
         <div
-          className="study-desk cursor-pointer absolute left-[942px] top-[265px]"
+          className="study-desk cursor-pointer absolute left-[1660px] top-[295px]"
           data-test="study-desk"
           onClick={() => dispatch(setCurrentScene("START_GAME"))}
         >
@@ -92,7 +92,7 @@ const Bedroom = () => {
         </div>
         <div
           onClick={() => dispatch(setCurrentScene("WARDROBE"))}
-          className="wardrobe cursor-pointer absolute pixelated top-[485px] left-[404px]"
+          className="wardrobe cursor-pointer absolute pixelated top-[710px] left-[660px]"
           data-test="wardrobe"
         >
           <p className="text-tag absolute left-[8px] top-[1px]">Wardrobe</p>
@@ -100,7 +100,7 @@ const Bedroom = () => {
         <div
           data-test="shop"
           onClick={() => dispatch(setCurrentScene("SHOP"))}
-          className="shop cursor-pointer absolute pixelated top-[420px] left-[1048px]"
+          className="shop cursor-pointer absolute pixelated top-[625px] left-[1850px]"
 
         >
           <p className="text-tag absolute left-[7px] top-[1px]">Shop</p>

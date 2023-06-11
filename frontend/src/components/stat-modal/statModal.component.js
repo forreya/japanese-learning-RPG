@@ -1,11 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setCurrentScene } from "../../redux-store/scene/sceneSlice";
-import { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { CheckIcon } from "@heroicons/react/24/outline";
 import { closeStatModal } from "../../redux-store/stat-modal/statModalSlice";
-import userSlice from "../../redux-store/user/userSlice";
-import CharacterComponent from "../design-character/character.component";
 import Achievements from "../achievements/achievements.component";
 
 export default function StatModal() {
@@ -14,7 +10,6 @@ export default function StatModal() {
   const { xp, level, wordsKnown, coins } = useSelector(
     (state) => state.user.character.attributes
   );
-  const { email, character } = useSelector((state) => state.user);
 
   const closeStatModalAndQuit = () => {
     dispatch(closeStatModal());
